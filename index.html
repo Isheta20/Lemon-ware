@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Isheta Aggarwal" />
+    <title>Figma to Reality with Tailwind</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="m-12 flex items-center justify-around">
+        <div class="flex items-center">
+          <a href="#"
+            ><img
+              src="assets/logo_lemonware.png"
+              alt="logo_lemonware"
+              class="h-16 w-24"
+          /></a>
+
+          <div class="relative ml-12">
+            <div
+              class="flex flex-col items-center font-poppins text-base font-semibold text-black"
+            >
+              Our Services
+            </div>
+            <div
+              class="absolute left-0 right-0 mx-auto mt-1 h-0.5 w-20 rounded-xl bg-primary"
+            ></div>
+          </div>
+        </div>
+
+        <div class="flex justify-between">
+          <div class="mr-4 font-poppins text-base font-semibold text-black">
+            About
+          </div>
+          <div class="mx-6 font-poppins text-base font-semibold text-black">
+            Blog&News
+          </div>
+          <div class="ml-4 font-poppins text-base font-semibold text-black">
+            Contact
+          </div>
+        </div>
+
+        <div class="flex items-center">
+          <div class="mr-3 font-poppins text-base font-semibold text-black">
+            Account
+          </div>
+          <div class="mx-4 h-5 w-0.5 bg-[#DAD8D8]"></div>
+          <div class="ml-3.5 h-5 w-5">
+            <img src="assets/phone_icon.svg" alt="phone" />
+          </div>
+          <div
+            class="text-4 ml-1 font-poppins font-semibold leading-none text-black"
+          >
+            +2349067322844
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero mx-28 mt-16">
+        <div class="grid grid-cols-2">
+          <div class="flex flex-col">
+            <div class="flex w-64 justify-between">
+              <div class="font-poppins text-base font-semibold text-primary">
+                <a href="#" class="no-underline">Hosting</a>
+              </div>
+              <div class="font-poppins text-base font-semibold text-[#D6D4D4]">
+                <a href="#" class="no-underline">Domain</a>
+              </div>
+              <div class="font-poppins text-base font-semibold text-[#D6D4D4]">
+                <a href="#" class="no-underline">SEO</a>
+              </div>
+              <div class="font-poppins text-base font-semibold text-[#D6D4D4]">
+                <a href="#" class="no-underline">Email</a>
+              </div>
+            </div>
+
+            <div class="relative left-0.5 mt-1 h-0.5 w-[15.6rem] bg-[#E5E5E5]">
+              <div class="absolute left-1 h-0.5 w-12 bg-primary"></div>
+            </div>
+
+            <div
+              class="mb-8 mt-6 font-poppins text-6xl font-bold leading-[4.84375rem] text-headings"
+            >
+              Premium Web Hosting for Your Website
+            </div>
+            <div
+              class="mb-12 pr-32 font-inter text-base leading-7 tracking-wider text-lighttext"
+            >
+              Blazing fast web hosting for individuals and businesses of all
+              sizes backed by 24x7x365 Support.
+            </div>
+
+            <div class="flex justify-between pr-56">
+              <button
+                class="flex w-40 items-center justify-center rounded-lg bg-primary p-3 font-poppins text-sm leading-normal text-white shadow-hero"
+              >
+                Create an Account
+              </button>
+              <button
+                class="flex w-40 items-center justify-center rounded-lg border border-solid border-black p-3 font-poppins text-sm leading-normal text-black"
+              >
+                Choose your plan
+              </button>
+            </div>
+          </div>
+
+          <div class="place-self-end pt-2">
+            <img src="assets/hero_section.png" alt="device-width" />
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-20 mt-32">
+        <div class="grid grid-cols-2">
+          <div class="flex flex-col justify-between">
+            <div
+              class="font-inter text-5xl font-extrabold leading-[4rem] text-headings"
+            >
+              True Cloud Web Hosting
+            </div>
+            <div class="pr-12 font-inter text-lg leading-8 text-gray-950">
+              True Cloud Web Hosting All of the hosting packages we offer are
+              deployed instantly on our SSD powered cloud. We don’t use
+              dedicated servers that operate on single pieces of hardware. Our
+              entire infrastructure is built to be reliable, secure, and
+              scalable.
+            </div>
+          </div>
+
+          <div class="grid grid-cols-3 items-center justify-items-end">
+            <div><img src="assets/sec2_1.png" alt="1" /></div>
+            <div><img src="assets/sec2_2.png" alt="2" /></div>
+            <div><img src="assets/sec2_3.png" alt="3" /></div>
+            <div><img src="assets/sec2_4.png" alt="4" /></div>
+            <div><img src="assets/sec2_5.png" alt="5" /></div>
+            <div><img src="assets/sec2_6.png" alt="6" /></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cards mx-28 mt-32">
+        <div class="grid grid-cols-4">
+          <div class="flex flex-col items-center font-poppins">
+            <div>
+              <img src="assets/sec3_1.png" alt="uptime" />
+            </div>
+            <div class="pb-1 pt-4 text-xl font-bold text-black">
+              99.9% Uptime
+            </div>
+            <div class="text-center text-xs font-light">
+              We Keep Your Web build Online 24x7x365. Downtime not only costs
+              you lost visitors but also damages your reputation and search
+              engine rankings.
+            </div>
+          </div>
+          <div class="flex flex-col items-center font-poppins">
+            <div>
+              <img src="assets/sec3_2.png" alt="uptime" />
+            </div>
+            <div class="pb-1 pt-4 text-xl font-bold text-black">
+              Blazing Fast Web Hosting
+            </div>
+            <div class="text-center text-xs font-light">
+              We Keep Your Web build Online 24x7x365. Downtime not only costs
+              you lost visitors but also damages your reputation and search
+              engine rankings.
+            </div>
+          </div>
+          <div class="flex flex-col items-center font-poppins">
+            <div>
+              <img src="assets/sec3_3.png" alt="uptime" />
+            </div>
+            <div class="pb-1 pt-4 text-xl font-bold text-black">
+              Free SSL Certificates
+            </div>
+            <div class="text-center text-xs font-light">
+              We Keep Your Web build Online 24x7x365. Downtime not only costs
+              you lost visitors but also damages your reputation and search
+              engine rankings.
+            </div>
+          </div>
+          <div class="flex flex-col items-center font-poppins">
+            <div>
+              <img src="assets/sec3_4.png" alt="uptime" />
+            </div>
+            <div class="pb-1 pt-4 text-xl font-bold text-black">
+              24x7 Friendly Support
+            </div>
+            <div class="text-center text-xs font-light">
+              We Keep Your Web build Online 24x7x365. Downtime not only costs
+              you lost visitors but also damages your reputation and search
+              engine rankings.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-44 mt-36">
+        <div class="font-poppins">
+          <div
+            class="px-36 text-center font-poppins text-5xl font-semibold leading-[3.75rem] text-black"
+          >
+            Ready to get started with Lemon Wares?
+          </div>
+          <div class="py-10 text-center font-poppins text-2xl">
+            Choose the package that suits you
+          </div>
+          <div class="flex justify-evenly">
+            <button
+              class="pr-8 text-center text-3xl font-semibold leading-10 text-black"
+            >
+              Basic
+            </button>
+            <button
+              class="pl-12 text-center text-3xl font-semibold leading-10 text-black"
+            >
+              Premium
+            </button>
+          </div>
+
+          <div class="pl-20">
+            <div class="h-1 w-[53.5rem] bg-long_card">
+              <div class="h-1 w-[27.6875rem] bg-primary"></div>
+            </div>
+          </div>
+
+          <div class="long_cards mt-20 grid grid-cols-3 gap-x-24">
+            <div
+              class="rounded-2xl border-2 border-solid border-long_card px-8 pb-12 pt-8 shadow-subscription"
+            >
+              <div class="pb-2.5 text-3xl font-semibold">Starter</div>
+              <div class="pb-8 text-xs">
+                with all your customers via all conversation channels in one
+                central dashboard.
+              </div>
+              <div class="pb-2.5 text-5xl font-semibold leading-8">$2.80</div>
+              <div class="pb-8 text-sm font-light text-black">Per month</div>
+
+              <button
+                class="mb-8 h-12 w-56 rounded-xl border-2 border-solid border-black text-center text-sm font-semibold leading-loose"
+              >
+                Choose this Plan
+              </button>
+
+              <div
+                class="list_pts font-inter text-base font-bold lining-nums proportional-nums text-lighttext"
+              >
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  2GB SSD
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  10GB Bandwidth
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  15 Email Accounts
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  Unlimited Database
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  4 Subdomains
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  1 Parked Domain
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  2 Websites
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  Free SSL
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  Softaculous
+                </div>
+              </div>
+            </div>
+            <div
+              class="rounded-2xl border-2 border-solid border-long_card px-8 pb-12 pt-8 shadow-subscription"
+            >
+              <div class="pb-2.5 text-3xl font-semibold">Standard</div>
+              <div class="pb-8 text-xs">
+                with all your customers via all conversation channels in one
+                central dashboard.
+              </div>
+              <div class="pb-2.5 text-5xl font-semibold leading-8">$4.20</div>
+              <div class="pb-8 text-sm font-light text-black">Per month</div>
+
+              <button
+                class="mb-8 h-12 w-56 rounded-xl border-2 border-solid border-black text-center text-sm font-semibold leading-loose"
+              >
+                Choose this Plan
+              </button>
+
+              <div
+                class="list_pts font-inter text-base font-bold lining-nums proportional-nums text-lighttext"
+              >
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  2GB SSD
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  10GB Bandwidth
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  15 Email Accounts
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  Unlimited Database
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  4 Subdomains
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  1 Parked Domain
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  2 Websites
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  Free SSL
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  Softaculous
+                </div>
+              </div>
+            </div>
+            <div
+              class="rounded-2xl border-2 border-solid border-long_card px-8 pb-12 pt-8 shadow-subscription"
+            >
+              <div class="pb-2 text-3xl font-semibold">Supreme</div>
+              <div class="pb-8 text-xs">
+                with all your customers via all conversation channels in one
+                central dashboard.
+              </div>
+              <div class="pb-2.5 text-5xl font-semibold leading-8">$7.00</div>
+              <div class="pb-8 text-sm font-light text-black">Per month</div>
+
+              <button
+                class="mb-8 h-12 w-56 rounded-xl border-2 border-solid border-black text-center text-sm font-semibold leading-loose"
+              >
+                Choose this Plan
+              </button>
+
+              <div
+                class="list_pts font-inter text-base font-bold lining-nums proportional-nums text-lighttext"
+              >
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  2GB SSD
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  10GB Bandwidth
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  15 Email Accounts
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  Unlimited Database
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  4 Subdomains
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  1 Parked Domain
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  2 Websites
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  Free SSL
+                </div>
+                <div class="flex pb-4">
+                  <img
+                    src="assets/Checkmark.png"
+                    alt="checkmark"
+                    class="pr-6"
+                  />
+                  Softaculous
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="mt-72 bg-primary px-24 pb-20 pt-16 font-inter text-footergrey"
+    >
+      <div class="grid grid-cols-5 justify-items-end text-base leading-8">
+        <div class="logofooter">
+          <a href="/"
+            ><img
+              src="assets/logo_lemonware_white.png"
+              alt="logo_lemonware_white"
+          /></a>
+          <div class="pt-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elem
+            </p>
+          </div>
+        </div>
+
+        <div class="footlinks flex flex-col justify-between">
+          <div
+            href="#"
+            class="text-base font-bold lining-nums proportional-nums text-white"
+          >
+            Service
+          </div>
+          <a href="#" class="">Domain</a>
+          <a href="#" class="">Shared Hosting</a>
+          <a href="#" class="">Cloud Hosting</a>
+          <a href="#" class="">Private Hosting</a>
+        </div>
+        <div class="footlinks flex flex-col justify-between">
+          <div
+            href="#"
+            class="text-base font-bold lining-nums proportional-nums text-white"
+          >
+            Hosting
+          </div>
+          <a href="#" class="">Cheap Hosting</a>
+          <a href="#" class="">Hosting Wordpress</a>
+          <a href="#" class="">Email Hosting</a>
+          <a href="#" class="">Hosting Unlimited</a>
+        </div>
+        <div class="footlinks flex flex-col">
+          <div
+            href="#"
+            class="text-base font-bold lining-nums proportional-nums text-white pb-9"
+          >
+            Company
+          </div>
+          <a href="#" class="pb-9">About</a>
+          <a href="#" class="pb-9">Career</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="footlinks flex flex-col">
+          <div
+            href="#"
+            class="text-base font-bold lining-nums proportional-nums text-white pb-9"
+          >
+            Help
+          </div>
+          <a href="#" class="pb-9">FAQ</a>
+          <a href="#">Help Support</a>
+        </div>
+      </div>
+
+      <div class="pt-24">
+        <p class="text-white">© 2024 Lemonware All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
